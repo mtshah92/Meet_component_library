@@ -5,6 +5,7 @@
   --dark-grey: #9ca3af;
   --off-white: #f3f4f6;
 }
+
 body {
   font-family: "Roboto Mono", monospace;
   margin: 0px;
@@ -17,6 +18,10 @@ hr {
 .fluid-container {
   padding-left: 1 rem;
   padding-right: 1 rem;
+}
+
+.container {
+  padding: 0rem 1rem;
 }
 
 .center-container {
@@ -63,6 +68,10 @@ hr {
   color: white;
 }
 
+.nav-elements .link {
+  color: white;
+}
+
 .nav-inline {
   display: inline;
   padding: 0rem 1rem;
@@ -100,11 +109,7 @@ hr {
   padding: 2rem;
 }
 
-.section h1 {
-  text-align: center;
-}
-
-.section p {
+.section {
   text-align: center;
 }
 

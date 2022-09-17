@@ -3,6 +3,7 @@
 :root {
   --primary-color: #6c63ff;
   --dark-grey: #9ca3af;
+  --off-white: #f3f4f6;
 }
 body {
   font-family: "Roboto Mono", monospace;
@@ -90,4 +91,20 @@ hr {
 
 .hero .hero-txt .heading-inverted {
   color: var(--primary-color);
+}
+
+.section {
+  padding: 2rem;
+}
+
+.section h1 {
+  text-align: center;
+}
+
+.section p {
+  text-align: center;
+}
+
+.ow {
+  background-color: var(--off-white);
 }

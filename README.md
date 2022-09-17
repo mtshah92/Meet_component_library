@@ -1,4 +1,6 @@
 # Meet_component_library
-Creating File using HTLML5
+Meet_Shah_Protfolio
 
-https://meet-shah-protfolio.netlify.app/
+Created using HTML5 and CSS3
+
+Live Project link: https://meet-shah-protfolio.netlify.app/

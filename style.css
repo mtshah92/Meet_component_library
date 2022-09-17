@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
 
 :root {
-  --primary-color: red;
+  --primary-color: #6c63ff;
+  --dark-grey: #9ca3af;
 }
 body {
   font-family: "Roboto Mono", monospace;
@@ -42,7 +43,51 @@ hr {
   list-style: none;
 }
 
+.nav-brand {
+  font-weight: bold;
+}
 .list-inline {
   display: inline;
   padding: 0rem 0.5rem;
+}
+.nav-elements {
+  background-color: #6c63ff;
+  color: white;
+}
+.nav-pills {
+  text-align: right;
+}
+
+.nav-inline {
+  display: inline;
+  padding: 0rem 2rem;
+}
+
+.nav-pills.link-active {
+  font-weight: bold;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  padding: 2rem;
+  text-align: center;
+}
+
+.hero .hero-img {
+  max-width: 350px;
+  display: block;
+  margin: auto;
+}
+
+.hero .hero-txt {
+  padding-top: 1rem;
+  color: var(--dark-grey);
+}
+
+.hero .hero-txt .heading-inverted {
+  color: var(--primary-color);
 }

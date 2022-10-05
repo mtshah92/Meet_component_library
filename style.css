@@ -31,6 +31,10 @@ hr {
   margin: auto;
 }
 
+mark {
+  background-color: #e2e8f0;
+}
+
 .link-primary {
   background-color: #6c63ff;
   border-radius: 0.5rem;
